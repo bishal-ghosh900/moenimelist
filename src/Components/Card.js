@@ -23,7 +23,7 @@ class Card extends Component {
             key={v.image_url}
             className="card-image"
             src={v.image_url}
-            alt="Something"
+            alt={v.title}
           />
           <div key={v.title} className="card-div">
             {v.title.length > 30 ? v.title.slice(0, 31) + "..." : v.title}

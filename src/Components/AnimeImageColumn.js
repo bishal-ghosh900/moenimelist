@@ -5,24 +5,25 @@ class AnimeImageColumn extends Component {
   render() {
     return (
       <div className="animeImageColumn">
+        <img
+          className="card-temp-image"
+          src={this.props.data.image_url}
+          alt={this.props.data.title}
+        />
         <Link
-          className="backButton"
+          className="backDiv"
           exact
           to={{
             pathname: this.props.history,
           }}
         >
-          <div className="backDiv">Back</div>
+          Back
         </Link>
-        <div className="mainImage">
-          <div className="card-temp">
-            <img
-              className="card-temp-image"
-              src={this.props.data.image_url}
-              alt={this.props.data.title}
-            />
-          </div>
-        </div>
+        {/* <div className="mainImage">
+          <div className="card-temp"> */}
+
+        {/* </div>
+        </div> */}
       </div>
     );
   }
