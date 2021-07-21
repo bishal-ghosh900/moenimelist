@@ -4,7 +4,7 @@ import TopAnime from "./TopAnime";
 import Details from "./Details";
 import Search from "./Search";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {
   return (
