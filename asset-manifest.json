@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/moenimelist/static/css/main.a617e044.chunk.css",
+    "main.js": "/moenimelist/static/js/main.c89f1740.chunk.js",
+    "main.js.map": "/moenimelist/static/js/main.c89f1740.chunk.js.map",
+    "runtime-main.js": "/moenimelist/static/js/runtime-main.595550fe.js",
+    "runtime-main.js.map": "/moenimelist/static/js/runtime-main.595550fe.js.map",
+    "static/js/2.a933d27a.chunk.js": "/moenimelist/static/js/2.a933d27a.chunk.js",
+    "static/js/2.a933d27a.chunk.js.map": "/moenimelist/static/js/2.a933d27a.chunk.js.map",
+    "static/js/3.cc081669.chunk.js": "/moenimelist/static/js/3.cc081669.chunk.js",
+    "static/js/3.cc081669.chunk.js.map": "/moenimelist/static/js/3.cc081669.chunk.js.map",
+    "index.html": "/moenimelist/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/moenimelist/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.a933d27a.chunk.js.LICENSE.txt": "/moenimelist/static/js/2.a933d27a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/moenimelist/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.595550fe.js",
+    "static/js/2.a933d27a.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.c89f1740.chunk.js"
+  ]
+}
