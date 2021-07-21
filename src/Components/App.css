@@ -586,7 +586,8 @@ nav {
   }
 
   .pagination > li > a {
-    padding: 3px 3px;
+    padding: 3px 4px;
+    border: 1px solid;
   }
 
   .notValid {
