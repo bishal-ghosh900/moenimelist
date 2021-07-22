@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Card from "./Card";
 import PaginatedComponent from "./PaginatedComponent";
-class Body extends Component {
+class TopAnimeBody extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -100,4 +100,4 @@ class Body extends Component {
   }
 }
 
-export default Body;
+export default TopAnimeBody;

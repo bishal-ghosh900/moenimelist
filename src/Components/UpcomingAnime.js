@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Header from "./Header";
-import TopAnimeBody from "./TopAnimeBody";
+import UpcomingAnimeBody from "./UpcomingAnimeBody";
 
-class TopAnime extends Component {
+class UpcomingAnime extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -11,10 +11,10 @@ class TopAnime extends Component {
     return (
       <div className="app">
         <Header />
-        <TopAnimeBody />
+        <UpcomingAnimeBody />
       </div>
     );
   }
 }
 
-export default TopAnime;
+export default UpcomingAnime;

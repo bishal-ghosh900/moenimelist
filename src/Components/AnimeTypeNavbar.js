@@ -13,7 +13,17 @@ class AnimeTypeNavbar extends Component {
               className="aList"
               to="/"
             >
-              Airing/Upcoming
+              Airing
+            </NavLink>
+          </li>
+          <li className="liList">
+            <NavLink
+              exact
+              activeClassName="aListWithShadow"
+              className="aList"
+              to="/upcoming anime"
+            >
+              Upcoming
             </NavLink>
           </li>
           <li className="liList">
