@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/moenimelist/static/css/main.a41cccd9.chunk.css",
-    "main.js": "/moenimelist/static/js/main.538b141a.chunk.js",
-    "main.js.map": "/moenimelist/static/js/main.538b141a.chunk.js.map",
+    "main.css": "/moenimelist/static/css/main.7768a967.chunk.css",
+    "main.js": "/moenimelist/static/js/main.2715302e.chunk.js",
+    "main.js.map": "/moenimelist/static/js/main.2715302e.chunk.js.map",
     "runtime-main.js": "/moenimelist/static/js/runtime-main.c224e729.js",
     "runtime-main.js.map": "/moenimelist/static/js/runtime-main.c224e729.js.map",
-    "static/js/2.699f51a0.chunk.js": "/moenimelist/static/js/2.699f51a0.chunk.js",
-    "static/js/2.699f51a0.chunk.js.map": "/moenimelist/static/js/2.699f51a0.chunk.js.map",
+    "static/js/2.e892fd8e.chunk.js": "/moenimelist/static/js/2.e892fd8e.chunk.js",
+    "static/js/2.e892fd8e.chunk.js.map": "/moenimelist/static/js/2.e892fd8e.chunk.js.map",
     "index.html": "/moenimelist/index.html",
-    "static/css/main.a41cccd9.chunk.css.map": "/moenimelist/static/css/main.a41cccd9.chunk.css.map",
-    "static/js/2.699f51a0.chunk.js.LICENSE.txt": "/moenimelist/static/js/2.699f51a0.chunk.js.LICENSE.txt"
+    "static/css/main.7768a967.chunk.css.map": "/moenimelist/static/css/main.7768a967.chunk.css.map",
+    "static/js/2.e892fd8e.chunk.js.LICENSE.txt": "/moenimelist/static/js/2.e892fd8e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c224e729.js",
-    "static/js/2.699f51a0.chunk.js",
-    "static/css/main.a41cccd9.chunk.css",
-    "static/js/main.538b141a.chunk.js"
+    "static/js/2.e892fd8e.chunk.js",
+    "static/css/main.7768a967.chunk.css",
+    "static/js/main.2715302e.chunk.js"
   ]
 }
