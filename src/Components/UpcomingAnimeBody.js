@@ -75,7 +75,7 @@ class UpcomingAnimeBody extends Component {
       <>
         <div className="bodyHeadUpper">
           <div className="bodyHead">
-            <h2>Airing/Upcoming</h2>
+            <h2>Upcoming</h2>
           </div>
         </div>
         <div className="body">

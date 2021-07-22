@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import TopAnimeBody from "./TopAnimeBody";
+import { headerImages, random } from "./Images";
+import AnimeTypeNavbar from "./AnimeTypeNavbar";
 
 class TopAnime extends Component {
   constructor(props) {
@@ -10,7 +12,13 @@ class TopAnime extends Component {
   render() {
     return (
       <div className="app">
+        <AnimeTypeNavbar />
         <Header />
+        <img
+          className="headImage"
+          src={headerImages[random]}
+          alt="Background pic"
+        />
         <TopAnimeBody />
       </div>
     );

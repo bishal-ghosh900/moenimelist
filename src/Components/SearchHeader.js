@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import AnimeTypeNavbar from "./AnimeTypeNavbar";
 
 class SearchHeader extends Component {
   constructor(props) {
@@ -36,12 +35,6 @@ class SearchHeader extends Component {
   render() {
     return (
       <div className="header">
-        <img
-          className="headImage"
-          src="https://wallpapercave.com/wp/wp5748432.jpg"
-          alt="Background pic"
-        />
-        <AnimeTypeNavbar />
         <div className="search">
           <input
             className="inputStyle"

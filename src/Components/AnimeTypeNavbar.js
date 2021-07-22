@@ -32,7 +32,7 @@ class AnimeTypeNavbar extends Component {
               className="aList"
               to="/top anime"
             >
-              Top Animes
+              Top
             </NavLink>
           </li>
           <li className="liList">

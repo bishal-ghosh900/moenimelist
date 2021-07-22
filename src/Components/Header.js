@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Quote from "./Quote";
-import AnimeTypeNavbar from "./AnimeTypeNavbar";
 
 class Header extends Component {
   constructor(props) {
@@ -22,12 +21,6 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <img
-          className="headImage"
-          src="https://wallpapercave.com/wp/wp5748432.jpg"
-          alt="Background pic"
-        />
-        <AnimeTypeNavbar />
         <Quote quoteObj={this.state.quoteObj} />
       </div>
     );
