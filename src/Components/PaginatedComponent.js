@@ -21,8 +21,8 @@ class PaginatedComponent extends Component {
     return (
       <div>
         <ReactPaginate
-          previousLabel={<i class="fas fa-arrow-left"></i>}
-          nextLabel={<i class="fas fa-arrow-right"></i>}
+          previousLabel={<i className="fas fa-arrow-left"></i>}
+          nextLabel={<i className="fas fa-arrow-right"></i>}
           breakLabel={"..."}
           breakClassName={"break-me"}
           pageCount={pageCount}
