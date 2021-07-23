@@ -16,7 +16,7 @@ class TopAnimeBody extends Component {
     this.setState({
       aniInfos: [],
     });
-    for (let i = 1; i < 11; i++) {
+    for (let i = 1; i < 3; i++) {
       fetch(`https://api.jikan.moe/v3/top/anime/${i}`)
         .then((res) => {
           this.setState({

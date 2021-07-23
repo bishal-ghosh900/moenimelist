@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import AnimeImageColumn from "./AnimeImageColumn";
 import AnimeImageDetailsColumn from "./AnimeImageDetailsColumn";
+import { motion } from "framer-motion";
+
 class AnimeDetails extends Component {
   constructor(props) {
     super(props);
@@ -23,10 +25,17 @@ class AnimeDetails extends Component {
     let data = this.state.animeDetails;
     let history = this.props.history;
     return (
-      <div className="animeDetails">
+      <motion.div
+        animate={{
+          width: "90vw",
+          height: "95vh",
+          opacity: 1,
+        }}
+        className="animeDetails"
+      >
         <AnimeImageColumn data={data} history={history} />
         <AnimeImageDetailsColumn data={data} />
-      </div>
+      </motion.div>
     );
   }
 }
