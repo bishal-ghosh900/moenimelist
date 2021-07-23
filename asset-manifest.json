@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/moenimelist/static/css/main.12493a36.chunk.css",
-    "main.js": "/moenimelist/static/js/main.972dac50.chunk.js",
-    "main.js.map": "/moenimelist/static/js/main.972dac50.chunk.js.map",
+    "main.css": "/moenimelist/static/css/main.0d76963b.chunk.css",
+    "main.js": "/moenimelist/static/js/main.990092c3.chunk.js",
+    "main.js.map": "/moenimelist/static/js/main.990092c3.chunk.js.map",
     "runtime-main.js": "/moenimelist/static/js/runtime-main.c224e729.js",
     "runtime-main.js.map": "/moenimelist/static/js/runtime-main.c224e729.js.map",
-    "static/js/2.e892fd8e.chunk.js": "/moenimelist/static/js/2.e892fd8e.chunk.js",
-    "static/js/2.e892fd8e.chunk.js.map": "/moenimelist/static/js/2.e892fd8e.chunk.js.map",
+    "static/js/2.4a3ca4e5.chunk.js": "/moenimelist/static/js/2.4a3ca4e5.chunk.js",
+    "static/js/2.4a3ca4e5.chunk.js.map": "/moenimelist/static/js/2.4a3ca4e5.chunk.js.map",
     "index.html": "/moenimelist/index.html",
-    "static/css/main.12493a36.chunk.css.map": "/moenimelist/static/css/main.12493a36.chunk.css.map",
-    "static/js/2.e892fd8e.chunk.js.LICENSE.txt": "/moenimelist/static/js/2.e892fd8e.chunk.js.LICENSE.txt"
+    "static/css/main.0d76963b.chunk.css.map": "/moenimelist/static/css/main.0d76963b.chunk.css.map",
+    "static/js/2.4a3ca4e5.chunk.js.LICENSE.txt": "/moenimelist/static/js/2.4a3ca4e5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c224e729.js",
-    "static/js/2.e892fd8e.chunk.js",
-    "static/css/main.12493a36.chunk.css",
-    "static/js/main.972dac50.chunk.js"
+    "static/js/2.4a3ca4e5.chunk.js",
+    "static/css/main.0d76963b.chunk.css",
+    "static/js/main.990092c3.chunk.js"
   ]
 }
