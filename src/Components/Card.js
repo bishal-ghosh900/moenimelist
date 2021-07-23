@@ -7,7 +7,6 @@ class Card extends Component {
     this.state = {};
   }
   render() {
-    console.log(this.props.aniInfos);
     let Infos = this.props.aniInfos.map(
       (v) =>
         !v.r18 && (

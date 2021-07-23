@@ -27,9 +27,5 @@ imgLink.forEach((v) => {
   headerImages.push(`https://wallpapercave.com/${v}`);
 });
 let random = Math.floor(Math.random() * headerImages.length);
-console.log(random);
-console.log(headerImages[random]);
-export { headerImages, random };
 
-//https://wallpapercave.com/wp/wp5501287.png
-// https://wallpapercave.com/wp/wp5501288.jpg
+export { headerImages, random };
