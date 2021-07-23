@@ -53,11 +53,11 @@ class SearchBody extends Component {
 
     return (
       <>
-        <div className="bodyHeadUpper">
+        {/* <div className="bodyHeadUpper">
           <div className="bodyHead">
             <h2>Search</h2>
           </div>
-        </div>
+        </div> */}
         <div className="body">
           {this.props.data && (
             <PaginatedComponent

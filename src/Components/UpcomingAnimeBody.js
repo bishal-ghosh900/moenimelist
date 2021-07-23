@@ -73,11 +73,11 @@ class UpcomingAnimeBody extends Component {
 
     return (
       <>
-        <div className="bodyHeadUpper">
+        {/* <div className="bodyHeadUpper">
           <div className="bodyHead">
             <h2>Upcoming</h2>
           </div>
-        </div>
+        </div> */}
         <div className="body">
           <PaginatedComponent
             aniInfos={this.state.aniInfos}

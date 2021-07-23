@@ -29,12 +29,12 @@ class Home extends Component {
       <div className="app">
         <AnimeTypeNavbar />
         <SearchHeader fillSearch={this.fillSearch} />
+        <SearchBody data={this.state.data} />
         <img
           className="headImage"
           src={headerImages[random]}
           alt="Background pic"
         />
-        <SearchBody data={this.state.data} />
       </div>
     );
   }

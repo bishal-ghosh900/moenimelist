@@ -48,13 +48,24 @@
   top: 0;
 }
 
+.placeSearch {
+  z-index: 2;
+  width: 80vw;
+  text-shadow: 0px 0px 10px black;
+  background-color: rgb(48, 20, 20);
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-style: italic;
+  font-weight: 900;
+}
+
 .quote {
   z-index: 2;
   width: 80vw;
   text-shadow: 0px 0px 10px black;
-  background-color: rgb(48, 20, 20, 0.7);
+  background-color: rgb(48, 20, 20);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 30px;
   font-size: 0.95rem;
   font-style: italic;
   font-weight: 900;
@@ -78,7 +89,7 @@
 
 .search {
   z-index: 2;
-  width: 50%;
+  width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -124,11 +135,13 @@
   outline: none;
 }
 
-.bodyHeadUpper {
+/* .bodyHeadUpper {
   width: 100%;
   margin: 0px;
   z-index: 1;
-  padding: 8px;
+  padding: 30px 10px 10px 10px;
+
+  border: solid;
 }
 
 .bodyHead {
@@ -139,7 +152,7 @@
   border-radius: 30px 0px 0px 30px;
   padding: 8px;
   background-color: rgb(48, 20, 20, 0.8);
-}
+} */
 
 .body {
   display: flex;
@@ -627,8 +640,9 @@ nav {
 
   .search {
     width: 100vw;
-
     padding: 0;
+    position: absolute;
+    bottom: 0;
   }
   .inputStyle {
     width: 100%;
@@ -648,9 +662,6 @@ nav {
 }
 
 @media screen and (max-width: 300px) {
-  .search {
-    flex-direction: column;
-  }
   .quoteText {
     text-align: left;
     color: rgb(255, 238, 0);
@@ -659,11 +670,6 @@ nav {
     width: 100%;
     font-size: 0.5rem;
     z-index: 2;
-  }
-
-  .inputStyle {
-    width: 98%;
-    margin-right: 0;
   }
 
   .btnStyle {

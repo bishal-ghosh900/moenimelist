@@ -15,12 +15,12 @@ class Home extends Component {
       <div className="app">
         <AnimeTypeNavbar />
         <Header />
+        <AiringBody />
         <img
           className="headImage"
           src={headerImages[random]}
           alt="Background pic"
         />
-        <AiringBody />
       </div>
     );
   }
